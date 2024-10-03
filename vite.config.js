@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-  }
+  },
+  base: '/Graduation/', 
 })
 // cấu hình chạy netword
 
