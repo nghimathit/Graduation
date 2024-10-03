@@ -4,10 +4,11 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/Graduation/', 
   server: {
     host: true,
   },
-  base: '/Graduation/', 
+  
 })
 // cấu hình chạy netword
 
